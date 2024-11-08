@@ -13,3 +13,24 @@ The "Gamified Mental Wellness Support Platform" is designed to address the growi
 
 ## Installation
 
+### Prerequisites
+
+- Ensure that you have [Node.js](https://nodejs.org/en/) installed on your system.
+- Clone this repository to your local machine:
+
+```bash
+git clone https://github.com/Aadinath1234/beta_04.git
+Navigate to the project directory:
+
+cd beta
+Install the necessary dependencies using npm:
+
+npm install
+This will install all the required dependencies listed in package.json.
+
+Usage
+Running the App Locally
+To run the app locally, use the following command:
+
+npm start
+
