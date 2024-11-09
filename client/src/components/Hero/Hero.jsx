@@ -12,7 +12,7 @@ const Hero = () => {
               data-aos="fade-up" className='text-5xl font-bold'
             >
 
-              MIND SUKOON
+              MIND SCHOOL 
             </h1>
             <p data-aos="fade-up" data-aos-delay="300">
               MindSukoon is a non-profit movement empowering the awareness for mental health among the people . It is created to inform the person about his/her mental condition and you can also get a consultancy from a doctor. This is not a site for personal disclosure of suicidal thoughts or behaviours. If you are in crisis, please call 112/911 or go to your nearest emergency department for assistance.
