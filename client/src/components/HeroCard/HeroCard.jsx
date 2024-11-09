@@ -175,6 +175,7 @@ import Games from '../../assets/games.jpg';
 import Books from '../../assets/books.avif';
 import Diary from '../../assets/diary.jpg';
 import Video from '../../assets/videos.png';
+import games from '../../components/Games/games';
 
 const ServiceData = [
     {

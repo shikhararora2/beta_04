@@ -16,6 +16,8 @@ import Books from './components/Books/Books.jsx';
 import axios from 'axios';
 import RewardTree from './components/RewardTree/RewardTree.jsx';
 import Video from './components/Video/Video.jsx'; 
+import Games from './components/Games/games.jsx'; 
+
 
 axios.defaults.baseURL = 'http://localhost:8080'; 
 axios.defaults.withCredentials = true; 
@@ -41,6 +43,7 @@ const App = () => {
             <Route path='/breathing' element={<Breathing />} />
             <Route path='/books' element={<Books />} />
             <Route path='/video' element={<Video />} />
+            <Route path='/games' element={<Games />}  />
           
         </Routes>
       </Router>
