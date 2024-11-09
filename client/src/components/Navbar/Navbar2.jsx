@@ -4,6 +4,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Logo from '../../assets/logo.png';
+import reward from '../RewardTree/RewardTree';
 
 const Navbar = () => {
   return (
@@ -21,6 +22,7 @@ const Navbar = () => {
               <li><Link to="/about">About </Link></li>
               <li><Link to="/contact">Contact Us </Link></li>
               <li><Link to="/faq">FAQ</Link></li>
+              <li><Link to="/reward">RewardTree</Link></li>
             </ul>
           </div>
 

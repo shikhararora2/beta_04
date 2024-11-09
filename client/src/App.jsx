@@ -10,9 +10,12 @@ import Home from './components/Home/Home.jsx';
 import About from './components/About/About.jsx';
 import Contact from './components/Contact/Contact.jsx';
 import FAQ from './components/FAQ/Faq.jsx'; 
+import Breathing from './components/BreathingComponent/BreathingSection.jsx'; 
+import Books from './components/Books/Books.jsx'; 
  
 import axios from 'axios';
-
+import RewardTree from './components/RewardTree/RewardTree.jsx';
+import Video from './components/Video/Video.jsx'; 
 
 axios.defaults.baseURL = 'http://localhost:8080'; 
 axios.defaults.withCredentials = true; 
@@ -34,6 +37,10 @@ const App = () => {
             <Route path='/browse' element={<Browse />} />
             <Route path='/body' element={<Body />} />
             <Route path='/placeformpage' element={<PlacesFormPage />}  />
+            <Route path='/reward' element={<RewardTree />} />
+            <Route path='/breathing' element={<Breathing />} />
+            <Route path='/books' element={<Books />} />
+            <Route path='/video' element={<Video />} />
           
         </Routes>
       </Router>
